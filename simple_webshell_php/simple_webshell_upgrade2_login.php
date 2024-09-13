@@ -12,7 +12,7 @@
         # password input form print
     ?>
         <form action="<?=$page?>" method="POST">
-            <input type="text" name="password">
+            <input type="password" name="password">
             <input type="submit" value="AUTH">
         </form>
     <?
